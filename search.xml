@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World!</title>
+    <url>//Hello-World/</url>
+    <content><![CDATA[Easter eggs !!!
+
+
+C#include &lt;stdio.h>
+int main(void) &#123;
+    printf("Hello World!\n");
+
+    return 0;
+&#125;
+
+Shellecho &#39;Hello World!&#39;
+
+JavaScriptconsole.log(&quot;Hello World!&quot;);
+
+Pythonprint('Hello World!')
+
+PHP&lt;?php
+echo("Hello World!");
+
+Rustfn main() &#123;
+    println!("Hello World!");
+&#125;
+
+SQLSELECT 'Hello World!';
+]]></content>
+  </entry>
+  <entry>
+    <title>Debian 国内次要镜像源备份</title>
+    <url>//debian-mirrors-backup/</url>
+    <content><![CDATA[本文是对经过 Debian 官方认证的次要镜像源的记录。
+
+
+以下排名不分先后。
+次要镜像源兰州大学URL：https://mirror.lzu.edu.cn/debian/
+deb https:&#x2F;&#x2F;mirror.lzu.edu.cn&#x2F;debian&#x2F; buster main contrib non-free
+deb-src https:&#x2F;&#x2F;mirror.lzu.edu.cn&#x2F;debian&#x2F; buster main contrib non-free
+deb https:&#x2F;&#x2F;mirror.lzu.edu.cn&#x2F;debian&#x2F; buster-updates main contrib non-free
+deb-src https:&#x2F;&#x2F;mirror.lzu.edu.cn&#x2F;debian&#x2F; buster-updates main contrib non-free
+deb https:&#x2F;&#x2F;mirror.lzu.edu.cn&#x2F;debian-security&#x2F; buster&#x2F;updates main contrib non-free
+deb-src https:&#x2F;&#x2F;mirror.lzu.edu.cn&#x2F;debian-security&#x2F; buster&#x2F;updates main contrib non-free
+
+北京外国语大学URL：https://mirrors.bfsu.edu.cn/debian/
+deb https:&#x2F;&#x2F;mirrors.bfsu.edu.cn&#x2F;debian&#x2F; buster main contrib non-free
+deb-src https:&#x2F;&#x2F;mirrors.bfsu.edu.cn&#x2F;debian&#x2F; buster main contrib non-free
+deb https:&#x2F;&#x2F;mirrors.bfsu.edu.cn&#x2F;debian&#x2F; buster-updates main contrib non-free
+deb-src https:&#x2F;&#x2F;mirrors.bfsu.edu.cn&#x2F;debian&#x2F; buster-updates main contrib non-free
+deb https:&#x2F;&#x2F;mirrors.bfsu.edu.cn&#x2F;debian-security&#x2F; buster&#x2F;updates main contrib non-free
+deb-src https:&#x2F;&#x2F;mirrors.bfsu.edu.cn&#x2F;debian-security&#x2F; buster&#x2F;updates main contrib non-free
+
+华为云URL：https://mirrors.huaweicloud.com/debian/
+deb https:&#x2F;&#x2F;mirrors.huaweicloud.com&#x2F;debian&#x2F; buster main contrib non-free
+deb-src https:&#x2F;&#x2F;mirrors.huaweicloud.com&#x2F;debian&#x2F; buster main contrib non-free
+deb https:&#x2F;&#x2F;mirrors.huaweicloud.com&#x2F;debian&#x2F; buster-updates main contrib non-free
+deb-src https:&#x2F;&#x2F;mirrors.huaweicloud.com&#x2F;debian&#x2F; buster-updates main contrib non-free
+deb https:&#x2F;&#x2F;mirrors.huaweicloud.com&#x2F;debian-security&#x2F; buster&#x2F;updates main contrib non-free
+deb-src https:&#x2F;&#x2F;mirrors.huaweicloud.com&#x2F;debian-security&#x2F; buster&#x2F;updates main contrib non-free
+
+上海交通大学URL：https://mirror.sjtu.edu.cn/debian/
+deb https:&#x2F;&#x2F;mirror.sjtu.edu.cn&#x2F;debian&#x2F; buster main contrib non-free
+deb-src https:&#x2F;&#x2F;mirror.sjtu.edu.cn&#x2F;debian&#x2F; buster main contrib non-free
+deb https:&#x2F;&#x2F;mirror.sjtu.edu.cn&#x2F;debian&#x2F; buster-updates main contrib non-free
+deb-src https:&#x2F;&#x2F;mirror.sjtu.edu.cn&#x2F;debian&#x2F; buster-updates main contrib non-free
+deb https:&#x2F;&#x2F;mirror.sjtu.edu.cn&#x2F;debian-security&#x2F; buster&#x2F;updates main contrib non-free
+deb-src https:&#x2F;&#x2F;mirror.sjtu.edu.cn&#x2F;debian-security&#x2F; buster&#x2F;updates main contrib non-free
+
+清华大学URL：https://mirrors.tuna.tsinghua.edu.cn/debian/
+deb https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;debian&#x2F; buster main contrib non-free
+deb-src https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;debian&#x2F; buster main contrib non-free
+deb https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;debian&#x2F; buster-updates main contrib non-free
+deb-src https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;debian&#x2F; buster-updates main contrib non-free
+deb https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;debian-security&#x2F; buster&#x2F;updates main contrib non-free
+deb-src https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;debian-security&#x2F; buster&#x2F;updates main contrib non-free
+
+中国科学技术大学URL：https://mirrors.ustc.edu.cn/debian/
+deb https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;debian&#x2F; buster main contrib non-free
+deb-src https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;debian&#x2F; buster main contrib non-free
+deb https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;debian&#x2F; buster-updates main contrib non-free
+deb-src https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;debian&#x2F; buster-updates main contrib non-free
+deb https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;debian-security&#x2F; buster&#x2F;updates main contrib non-free
+deb-src https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;debian-security&#x2F; buster&#x2F;updates main contrib non-free
+
+参考链接
+https://www.debian.org/mirror/list.en.html
+
+]]></content>
+      <categories>
+        <category>笔记本</category>
+      </categories>
+      <tags>
+        <tag>Debian</tag>
+        <tag>Linux</tag>
+        <tag>镜像源</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>通过网络启动的方式安装 Debian</title>
+    <url>//install-debian-via-network-boot/</url>
+    <content><![CDATA[本文主要介绍如何使用仅 48 MB 的镜像网络启动安装 Debian Linux。
+
+
+引言作为一个极简主义者，对于那些巨大的镜像显然是不感冒的。对于几乎所有系统，我都更喜欢用更小的网络启动镜像来安装，所以便有了这篇文章。
+优缺点使用网络启动镜像安装系统的优点是：
+
+需要下载的内容是最少的
+可以根据自己的需要方便的增加模块
+
+缺点是：
+
+需要可以上网的环境
+相比于普通的安装方式要稍显复杂
+
+环境以下是本文的实验环境：
+
+VMware Workstation 16.1.2
+mini.iso
+可以上网的宿主机
+
+mini.iso 是本文用于网络启动安装 Debian 所准备的镜像，你可以点击以下链接下载。
+https://deb.debian.org/debian/dists/buster/main/installer-amd64/current/images/netboot/mini.iso
+优化虚拟机设置具体优化项目可见：提升 VMware Workstation 性能和易用性的几个 Tips。如果你使用物理机进行安装，那么可以直接跳过此步。
+安装启动安装程序刚开机，会显示出如下界面：
+
+你可能会很迷惑，不是说好的要安装系统吗？怎么跳出 GRUB 命令行来了？
+因为我们用的是 mini.iso，是所有镜像中最小的一种，仅包含了必须文件（包括内核、Initrd 文件等）。所以我们需要手动输入命令以装载内核文件和 Initrd 文件。
+当你的启动固件为 BIOS 时，输入以下命令（可以使用 Tab 键进行补全）：
+linux &#x2F;linux
+initrd &#x2F;initrd.gz
+boot
+
+如果你的启动固件为 UEFI，则输入以下命令：
+linuxefi &#x2F;linux
+initrdefi &#x2F;initrd.gz
+boot
+
+更改 debconf priority 级别将命令输入之后，我们就可以看到接下来的安装程序了。
+
+进行此步骤的目的是，可以让我们对接下来的安装更为可控。
+按 Tab 键移动到 &lt;Go Back&gt;，然后按 Enter 键确认，此时界面如下：
+
+我们选择 Change debconf priority，选择之后此时界面如下：
+
+我们选择最低的 low 级别并确认，在之后的界面直接按回车即可回到我们一开始的 Language 界面。
+选择语言语言方面，我个人直接选择 English，之后进入选择国家和地区步骤，我选择了我自己的所在地，你可以根据自己的想法选择。
+
+之后我们进行 locales 的配置，我选择了 en_US.UTF-8。
+
+然后让我们选择附加的 locales，此步骤我没有附加其它 locales，而是直接选择 Continue 进行到下一步。
+
+此时你会发现界面又回到了选择步骤的页面，并且自动帮你选择了下一步配置项，以后每配置完一项之后回到这个界面都可以直接按回车确认以进行下一步骤。
+选择键盘布局键盘布局方面，中国的键盘布局和美国的键盘布局是一样的，所以直接选择 American English 就可以了。
+
+配置网络接下来我们配置网络，先移动到 Detect network hardware 选项，然后确认以检测网络硬件，之后我们进入网络配置界面。
+由于我使用的虚拟机网卡模式为 NAT 模式，自带 DHCP，所以我直接选择了自动配置网络选项。
+
+接下是配置网络链路检测时间上限，我使用了默认的 3 秒，如果有别的需求可以更改。
+
+经过 DHCP 获取到地址之后，我们开始配置主机名、域名：
+
+
+配置镜像源
+由于我们使用的镜像是网络启动镜像，其中并没有包含 https 的 CA 证书的相关包（Package），所以我们选择 http 协议。
+
+接下来的步骤我就不一一截图了，选择对于你来说速度最快的镜像源即可，我选择的是 BFSU 镜像源。
+
+之后的界面是配置 HTTP 代理，如果有需要可以在这里配置。
+然后我们开始选择 Debian 的版本，Debian 共有三个版本，分别是 Stable、Testing、Unstable，顾名思义，分别是稳定版、测试版和不稳定版本。我个人选择使用稳定版本。
+
+下载组件选择好镜像源之后，我们开始下载必须的组件。
+
+在这个界面可以选择你需要下载的组件，我本次的安装是最小安装，所以并没有下载额外的组件。
+
+开始下载组件。
+
+等进度条走完之后，我们进入到下一步。
+设置用户和密码
+接下来我们开始设置用户和密码。首先开启 shadow passwords，开启此功能可以让我们的系统更加安全。
+
+之后就是让我选择是否允许 root 用户登录，我个人选择了允许登录，可按个人喜欢选择。
+
+设置 root 用户密码。
+
+再输一遍以确认密码。
+
+接着我们创建普通用户。
+
+输入用户全名，注意，此处的全名不等同于用户名，可置空。
+
+此时才开始输入用户名。
+
+输入用户密码。
+
+之后再输入一遍以确认密码没有输错即可。
+设置时钟
+选择是否使用 NTP 来校时，NTP 是一种校时服务，可以实时与 NTP 服务器同步时间，我选择 Yes。
+
+设置 NTP 服务器地址，我这里设置的是中国官方的 NTP 服务器：ntp.ntsc.ac.cn。
+
+设置时区。
+
+分区首先直接回车以扫描磁盘，之后会自动帮我们移动到下一个步骤，我们只需再按一次回车。
+
+接下来我们选择磁盘分区方法，我个人选择了手动分区，也就是最后一个选项。
+
+基本的磁盘分区方案可以查看 Red Hat 的官方文档：
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/performing_a_standard_rhel_installation/partitioning-reference_installing-rhel
+注意，红帽官方文档使用的容量单位为 GiB 而不是 GB，但是 Debian 安装程序中使用的单位是 GB，所以需要换算。
+以下是我的分区方案：
+
+将更改写入硬盘。
+
+安装基本系统
+直接回车以开始安装基本系统。中途会让我们选择需要安装的内核，如果你所安装的机器是云服务器且使用的技术并非 Hyper-V VMware，同时配置又较低，那么就可以使用 linux-image-cloud-amd64，此内核是经过精简的内核，更适用于配置较低的机器。其它情况下一般选择安装 linux-image-amd64。
+
+接下来会让你选择需要包含在 Initrd 中的驱动，如果后续需要添加许多不同种类的硬件设备，那么选择第一项。如果后续不需要添加其它种类的硬件设备，则选第二项以精简 Initrd。
+
+配置包管理器
+一般情况下我们也会使用非自由软件，所以我们选择 Yes。
+
+我们在需要编译程序的时候，可能会用到程序的源代码文件，所以该选项我们也选择 Yes。
+
+接下来选择要包含的存储库，如果你正在安装的机器处于国内，则去掉第一个选项，如果在国外，则勾选所有选项即可。国内连接到 Debian 官网并不是很顺畅，所以我们需要暂时取消勾选第一项，后面我们可以通过更改配置文件的方法来重新启用。
+
+选择要安装的软件
+回车进入此步骤后，会让你选择是否自动安装安全更新，我个人推荐第二个选项，也就是开启自动安装安全更新，这样的话 Debian 官方发布安全更新后，包管理器会帮我们自动安装从而省去手动安装的麻烦并且可以让系统更加安全。
+
+之后会让我们选择是否加入包使用统计调查，会将你的包使用情况自动上传到服务器，由于担心隐私泄露我这里选择了 No。
+
+接下来我们选择需要安装的软件，我个人倾向于全部不选择以达成最小化安装，之后有需要了再通过包管理器等方式安装。
+
+安装 GRUB
+进入此步骤后会让你选择是否强制将 GRUB 安装到 EFI 分区上，建议选择 No。对于大部分机器来说，选择 No 都可以正常开机，并且这种实现更为标准和优雅，如果你的机器厂家的 UEFI 做的不是很好，可能会导致无法开机，此时再选择 Yes 即可。
+
+完成安装
+选择 Finish the installation 之后会让你决定是否将硬件时钟调整为 UTC 时区，如果你的机器中还装有其它系统，比如 Windows，则建议选择 No，反之则选择 Yes。
+
+最后，安装完成，回车确认之后就会重新启动，之后我们就可以看到你安装好的 Debian Linux 了。
+
+]]></content>
+      <categories>
+        <category>笔记本</category>
+      </categories>
+      <tags>
+        <tag>Debian</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在云服务器上安装最新版 Debian 系统</title>
+    <url>//install-the-official-debian/</url>
+    <content><![CDATA[本文主要介绍如何在云服务器上安装最新版本的官方 Debian Linux。
+
+
+引言由于各大云服务器厂商（尤其是国内云服务器厂商）对系统镜像的更新较慢，并且其镜像经过厂商的修改。作为一个热爱纯净、有点洁癖的人来说，这显然是无法接受的，于是便有了这篇文章。
+前置条件
+服务器的虚拟化架构需是 KVM 或者 XEN 等可以更换内核的架构（当然，裸金属服务器也是可行的）。
+你需要有完整的 root 权限
+云服务器厂商提供了类似 VNC 的功能
+
+保存主机的相关信息我使用的服务器是腾讯云轻量应用服务器，配置为 1 核心 CPU、2 GB 内存、60 GB 硬盘，操作系统为 Debian Linux 10.2。理论上只要是使用 GRUB 作为引导程序的系统都可以，但是我并没有在 Cent OS 等其它 OS 上尝试过，不确保是否可以使用此方法。
+由于腾讯云对轻量应用服务器提供了 DHCP，所以我几乎不需要保存多少信息，但是如果你使用的服务器的厂商并没有提供 DHCP 等服务（例如 CloudCone），则需要备份 IP、DNS 和其它你认为需要保存的信息。
+备份内网软件源地址cat &#x2F;etc&#x2F;apt&#x2F;sources.list
+
+这是我的回显：
+deb http:&#x2F;&#x2F;mirrors.tencentyun.com&#x2F;debian buster main contrib non-free
+# deb-src http:&#x2F;&#x2F;mirrors.tencentyun.com&#x2F;debian buster main contrib non-free
+deb http:&#x2F;&#x2F;mirrors.tencentyun.com&#x2F;debian buster-updates main contrib non-free
+# deb-src http:&#x2F;&#x2F;mirrors.tencentyun.com&#x2F;debian buster-updates main contrib non-free
+deb http:&#x2F;&#x2F;mirrors.tencentyun.com&#x2F;debian-security buster&#x2F;updates main contrib non-free
+
+# deb-src http:&#x2F;&#x2F;mirrors.tencentyun.com&#x2F;debian-security buster&#x2F;updates main contrib non-free
+# deb http:&#x2F;&#x2F;mirrors.tencentyun.com&#x2F;debian buster-backports main contrib non-free
+# deb-src http:&#x2F;&#x2F;mirrors.tencentyun.com&#x2F;debian buster-backports main contrib non-free
+# deb http:&#x2F;&#x2F;mirrors.tencentyun.com&#x2F;debian buster-proposed-updates main contrib non-free
+# deb-src http:&#x2F;&#x2F;mirrors.tencentyun.com&#x2F;debian buster-proposed-updates main contrib non-free
+
+备份 IP、DNS 等网络配置信息ip -c ad
+cat &#x2F;etc&#x2F;resolv.conf
+
+这是我的回显：
+# ip -c ad
+1: lo: &lt;LOOPBACK,UP,LOWER_UP&gt; mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link&#x2F;loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1&#x2F;8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1&#x2F;128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: &lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link&#x2F;ether 52:54:00:7a:e1:19 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.4.10&#x2F;22 brd 10.0.7.255 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::5054:ff:fe7a:e119&#x2F;64 scope link 
+       valid_lft forever preferred_lft forever
+
+# cat &#x2F;etc&#x2F;resolv.conf
+nameserver 183.60.83.19
+nameserver 183.60.82.98
+
+找到安装 GRUB 的分区lsblk
+
+这是我的回显：
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sr0     11:0    1 141.2M  0 rom  
+vda    254:0    0    60G  0 disk 
+└─vda1 254:1    0    60G  0 part &#x2F;
+
+可以看到我的这台腾讯云的轻量服务器只有一个 / 分区。那么就可以判断出 GRUB 是安装在 / 分区内的。所以当我们处于 GRUB 引导界面时，它的起始分区为 /。
+下载内核文件和 Initrd在确定了 GRUB 安装的位置后，我们进入 / 分区（也就是 GRUB 的安装分区），并下载内核文件和 Initrd（临时根文件系统），需要下载在 GRUB 的安装分区内，如果你的 GRUB 安装分区为 /boot，那就将第一步的命令改为 cd /boot。
+由于我使用的是腾讯云轻量服务器，所以我是直接从腾讯云自建的内网源获取的文件，以下的下载链接请根据自己的情况修改。
+cd &#x2F;
+wget http:&#x2F;&#x2F;mirrors.tencentyun.com&#x2F;debian&#x2F;dists&#x2F;stable&#x2F;main&#x2F;installer-amd64&#x2F;current&#x2F;images&#x2F;netboot&#x2F;debian-installer&#x2F;amd64&#x2F;initrd.gz
+wget http:&#x2F;&#x2F;mirrors.tencentyun.com&#x2F;debian&#x2F;dists&#x2F;stable&#x2F;main&#x2F;installer-amd64&#x2F;current&#x2F;images&#x2F;netboot&#x2F;debian-installer&#x2F;amd64&#x2F;linux
+
+延长 GRUB 引导界面的等待时间有时云服务厂商定制的系统镜像会更改 GRUB 引导界面的等待时间，我们需要将其延长以便我们来得及进行操作。
+vim &#x2F;etc&#x2F;default&#x2F;grub
+update-grub
+
+将此文件中的 GRUB_TIMEOUT= 后面的值改为 10 或者更长时间（单位为秒）。
+重启reboot
+
+进入 GRUB 命令行模式
+当我们进入 GRUB 引导界面后，按 c 键，即可进入 GRUB 命令行，如下图。
+
+输入以下命令以指定需要启动的 Linux 内核和 Initrd。由于 GRUB 的起始分区为 /，而我们的内核文件和 Initrd 文件也下载在了此分区，所以不用担心发生找不到文件的问题。
+linux &#x2F;linux
+initrd &#x2F;initrd.gz
+
+输入以下命令以启动。
+boot
+
+如果一切正常，那么你现在就可以看到此时正处于 Debian Linux 的网络安装界面了。
+
+详细的 Debian Linux 安装教程可以看此篇文章：通过网络启动的方式安装 Debian
+]]></content>
+      <categories>
+        <category>笔记本</category>
+      </categories>
+      <tags>
+        <tag>Debian</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《声之形》—— 相互救赎的爱情与友情</title>
+    <url>//the-shape-of-voice/</url>
+    <content><![CDATA[2019 年 12 月 25 日，圣诞节，我在晚上看了《声之形》这部动漫。
+
+
+原本朋友安利我这部动漫的时候，我并没有很想去看，直到这周我朋友说星期二晚上和我看这部动漫。
+刚开始，石田将也（男主）把钱放在妈妈的床边，准备自杀的时候，我感觉很莫名其妙，然后就开始讲石田将也小学的故事，班上转来一个学生，名叫西宫硝子（女主），天生失聪。
+西宫硝子很善良，但是周围的环境很不友好，西宫刚转来的时候，班上对她有的更多是好奇，也会有人试着接近她，但是石田将也却莫名其妙的看西宫西宫不爽，然后就开始霸凌西宫，西宫因为不太会说话，用手语对将也表达了想要和他做朋友的意愿，但是石田并没有理解她的意思。过了一段时间，西宫有了助听器，可以听到声音了，石田却故意发出很大的声音恐吓她。并且和植野直花一起欺负西宫，竟然还扔掉了西宫很多个助听器，也是因为强行拉扯助听器的原因，西宫本来两只耳朵戴上助听器都是能听到声音的，但是石田的行为导致了西宫的其中一只耳朵再也听不到声音。后来，西宫转学了，并且向校方报告了助听器的事情，于是，石田就被当作头号嫌疑犯被批评，在石田被班主任责令起立的时候，他也说出了植野、岛田等人也欺凌过西宫，于是，放学后岛田带头欺凌了石田。
+到了高中，石田由于有霸凌过别人的经历，在高中被孤立，在学校不敢与人正视，并且无法看清别人的脸，于是就想起了被自己欺负过的西宫，于是就去学了手语，在手语学校遇到了西宫，将小学时西宫的记事本还给了她。自此开始，石田便开始用行动补偿小学的时候带给西宫的伤害，但是，却遇到了西宫的妹妹西宫结弦的阻拦，前几次石田去手语学校的时候，每次都被结弦阻拦不让他进去，并且骂石田是老鼠，后来，石田的新朋友永束（也是石田在高中第一个能看到别人脸的人）将结弦推开，并且让石田见到了西宫硝子，之后，石田经常带面包给西宫吃，也经常约西宫去桥上喂鱼，有一次，西宫的记事本不小心被石田弄到小河下了，西宫就直接跳下去去寻找那本本子，接着，石田也跳了下去并且将找到的本子交给西宫。结弦将石田跳下的照片发到了网上，因为那座桥是禁止往下跳的，导致石田停课禁足一周，于是，硝子便和结弦吵了一架，并且结弦被赶了出去，石田去接妹妹的时候遇到了结弦，将在外面睡着的结弦接回自己家，收留了几天之后结弦回到了自己家，石田在送结弦的途中遇到了结弦的妈妈（同样也是硝子的妈妈），被扇了一巴掌。之后，石田遇到了小学时候的同桌植野，但是植野还是对硝子态度很恶劣，差点就又讲硝子的助听器扔了出去。自此之后，硝子开始扎起了辫子，偶然的一次机会，石田在骑车回去的路上，遇到了硝子，硝子送了石田三个小兔子装饰，并且对石田说了“喜欢”，但是石田并没有听清楚，以为硝子说的是月亮，硝子回去之后将这件事告诉了妹妹结弦，结弦和石田见面的时候并没有告诉他硝子到底说了什么，只是憋着笑。
+后来，石田和硝子、结弦、永束、植野等人去游乐场玩，在此期间植野和硝子一起坐了摩天轮，植野说讨厌硝子，并且说小学的时候他们被拆散错在硝子，此时硝子内心非常愧疚，结弦在她们乘坐摩天轮之前将相机交给了硝子，将全程录了下来，并和石田一起看了这一小段录像，石田说：“我想让西宫能喜欢上自己”。过了一段时间，川井将石田以前的霸凌事件和同班男同学真柴智讲了，石田得知此事后便和川井说不要声张，但是川井说：“石田你到头来根本一点都没变”。真柴智是一个痛恨恶霸的人，得知硝子小时候被欺凌感到义愤填膺，却得知石田就是欺负硝子的人，众人在桥上争吵了起来，最后不欢而散，只剩下结弦，硝子和将也三人。
+之后，暑假到了，一次硝子在和石田出去玩的时候，硝子对石田说：“你和我在一起会变得不幸”。过了一段时间，硝子和结弦的妈妈的生日到了，硝子和结弦邀请将也一起去他们家里做蛋糕，硝子的妈妈回来之后只是板着脸，并没有特别生气，将也这一举动也让硝子的妈妈对他的看法渐渐开始改变。又过了一段时间，烟火大会到了，石田、硝子、结弦与硝子的母亲一起去了烟火大会，途中硝子说要回去学习了，结弦和母亲买完吃的之后遇到了石田，于是就让石田帮忙放一下相机，石田回到硝子的家的时候，看到硝子正站在台上准备跳下去，于是不顾一切的拉住了硝子，并在拉住她的时候想起了还没有和硝子道歉的事情，但是之后，因为脱力的原因，石田把硝子救上来了，自己却掉了下去。
+石田进了医院，硝子的妈妈向石田的妈妈下跪并表示感谢，一天晚上，硝子梦到将也说他将要去死，硝子惊醒，用尽全力跑到河边，但是并没有看到将也，于是就大哭了起来，奇迹般醒来的将也也跑到河边寻找硝子，硝子不敢相信的戳了一下将也，以确认他是不是真的来了。将也和硝子道歉，说自己以前都是以自己的想法来理解硝子的意思，想和硝子聊更多的东西，但是自己却伤害了硝子，导致了硝子做了最坏的选择。硝子听完之后，却哭了，并说这都是她的错，都是因为自己没有做出改变，才导致石田掉了下去，如果没有她的话，石田就不会掉下去了。然后，石田说自己一直和硝子想着同样的事情，但是即便如此，石田还是觉的这些不值得去赴死，石田还想和大家好好道歉。之后，石田握住硝子的手和她说：“希望能帮助你活下去”。然后石田说完之后就害羞了并且和硝子说让她忘掉这件事情，硝子却开心的笑了起来。
+石田出院了。结弦告诉了石田文化祭的事情，硝子也发邮件和石田说一起去文化祭。但是在学校时，石田还是不敢抬起头看清楚同学。文化祭途中，遇到了永束、真柴智、川井、植野、佐原等以前的朋友，和他们一起逛了文化祭，并且解开了心结，终于敢再一次正视同学，走出自我孤立和被孤立的世界。
+这是一个描述了友情、爱情的相互救赎的故事，在电影前面一段，石田为了追求刺激，将欺负硝子作为乐趣，硝子转学之后，班主任以及班上同学把这个锅都扔给男主，事实上他们也欺负了硝子，却没有得到应有的惩罚。这件事发生之后，班上的同学开始孤立和欺凌男主，以往的好朋友也开始欺负男主，自此，男主开始走入自我孤立和被孤立的世界。说实话，我真的很不喜欢男主小学的时候班上的氛围，有的只有人性最真实的恶。后来男主升上高中之后，便无法正视同学，始终活在自闭、孤立和被孤立的世界里，于是便产生了想自杀的念头，将小学时妈妈赔给硝子妈妈助听器的钱还给妈妈之后，便想着跳河自杀，但是没有成功。在我看来，事实上可能自杀对男主确实是一种解脱，因为陷入了这种情况的人如果不是遇到一些机遇等是很难再从自闭中走出来了，但是这也是一种报应，本身小时候做错的事，现在又在自己身上发生，看到这里我心中甚至有一点暗爽，做错事情的人得到了应有的惩罚。此时，男主理解了硝子当时被自己欺负的心情，去手语学校学了手语，在那里遇到了女主，于是，救赎之路就开始了。
+刚开始，男主将女主小学的时候的记事本还给了女主，到后面男主经常约女主出来玩，这一段我本以为男主是因为罪恶感才想和女主成为好朋友的，但是后来发现并不是这样的，我觉的男主潜意识里就想着和女主成为好朋友吧，毕竟后来男主在遇到植野的时候自己也说了不是因为罪恶感才与女主成为好朋友的。
+到了游乐场的情节的时候，我本以为这会是个开心的时光，没想到植野直接拉着硝子去坐了摩天轮，在摩天轮上植野直接用一副强盗逻辑把错误归到硝子身上，此时硝子心里也很难受的吧，以为真的是自己的错才导致大家这么不开心的。剧中我最讨厌的两人就是植野和川井了，前面一个人是富有强盗逻辑的人，后面一个人是自私，会装的人，不管在生活中还是现实中我都非常厌恶这种人。
+烟火大会上，硝子说自己要先回去学习了，当时我感觉不对头，这么美的烟花不看却要回去学习，正好，男主遇到了买完东西的结弦，结弦请男主把自己的相机拿回家，在男主回到硝子的家的时候，看到硝子正站在阳台边要跳下去，电影中有一段时间画面只有烟花，我当时心都凉了一大截，以为要出事了，不过还好，男主拼尽全力的跑向了阳台拉住了硝子，并且拉硝子的同时想起了还没有和硝子道歉的事情。硝子被救上来了，男主却因为脱力和没有支撑点的原因掉了下去。硝子跳下去之前心情应该是自责，愧疚的吧，其实并不是她的错，但是她觉的是自己的错，并且还被植野这么说，以为是自己导致大家都不开心的，其实我觉的并不是的，错的不是她，是男主、氛围和小时候的其他人。
+最令我感动的一幕就是男主住院了，一天晚上，女主梦到了男主将要死亡，大提琴的声音响起，硝子非常焦急的跑向了平常和男主一起喂鱼的桥上，但是到了桥上之后发现梦中的那个人并没有在桥上，忍不住心中的悲伤，以为男主已经逝世，于是在桥上放声大哭。画面切到了桥下的鲤鱼，鲤鱼也开始躁动不安。此时，奇迹出现了！男主突然从床上惊醒，手空抓空气喊了一声：“西宫！”，然后便不顾一切的扯下了身上的医疗器材，拼命的跑向那曾经和硝子喂鱼的桥上，随着桥的护栏的振动声，硝子转过了头，看到了那个她梦寐以求的人，长大了嘴巴不敢相信，他真的来了，上前戳了戳石田的胸口，惊得退后了几步，发现男主真的来了，这不是她的梦！男主并没有死！
+然后，双方相视而坐，石田对硝子说：
+“太好了，你没事，西宫，我已经没事了，大致上吧，别露出这样的表情啊，西宫。对了，西宫，对不起，因为我还没为以前的事好好跟你道歉。还有之后的事情也…很多…我大概一直都是根据自己想法来理解你的意思，我想聊更多的东西，和你，大概，就是这样。然而我却伤害了你，结果，导致你做了最坏的选择。”
+硝子摇了摇头，说：
+“不是的！都是因为我没做出改变，你才掉了下去，全部，都是我的错！如果没有我的话，你就不会…对不起！！！“
+石田拍了拍硝子的肩，说：
+“别哭呀，西宫，那个，西宫，我直到刚才还在和你说话，在梦中，就好想要放弃了一样，很多事情，不过，不是那样的，虽然我一直和西宫想着同样的事情，即便如此，我也觉的这些不值得去赴死，我还想和大家好好道歉，那个，西宫，我…希望能帮助你活下去！”
+男主往前挪了一点，握住了硝子的手，放开，又再次握住，再次放开，然后突然捂住嘴巴，脸色微红，说道：
+“啊… 我好像说了…我做了好难为情的事啊！糟糕，对…对不起，忘了吧！西宫，忘掉我刚刚说的。”
+硝子听到之后，捂住嘴巴笑了起来，接着，石田看到硝子笑了，也跟着一起笑了起来，硝子做出了“我们约好了”的手语，此时画面切到桥下的鲤鱼，旋转了一圈，伴随着水滴声，这个画面便过去了。
+最喜欢的就是上面那一段了，双方仿佛是有心灵感应一般，在平日里经常喂鱼的桥上再次相遇，硝子放声大哭的同时，画面切到了鲤鱼，在电影里，鲤鱼同样也象征了美好的爱情，此时，硝子的心应该是近乎破碎的，自己喜欢的人将要死亡，自己却没有见到他最后一面，硝子觉的这都是自己的错，但是我觉的硝子并没有做错什么事情，她已经很努力了，小时候的她也已经很努力了，男主也说出了他最想说的话：“我…希望能帮助你活下去！”，此时，石田的话语救赎了硝子。也许，这就是爱情吧！我想要守护你，想要帮助你活下去，同样的，另一个人也想帮助对方走出阴影，走出那个自闭的世界，都在相互为了对方而改变，为了对方而努力，真是美好的爱情！尽管这段恋情之前发生了很多悲伤，难过的事情，但是双方都能互相理解，互相接受，甚至为了对方差点交出自己的生命，真是美好的爱情！两人甚至还有心灵感应一般，再次在桥上相遇，并且说出了自己的肺腑之言，真是美好的爱情！随着硝子做了约定的手语，画面又切到了鲤鱼，鲤鱼逐渐变的安宁，也象征着女主焦躁的心情逐渐变的宁静，同样也象征着男女主终于完全坦诚相待，直面自己内心的感情。
+不得不说的是，西宫硝子简直是剧中最善良的一个女孩子了！小时候被男主欺凌，被男主毁掉一只耳朵的听力，但是长大之后面对将也，还是产生了情愫，还是选择原谅了将也，与此同时，将也也差一点就为了西宫付出了自己的生命，整部剧里面最喜欢的角色就是西宫硝子了！
+这部电影还有一点，就是石田与永束的友情，一天放学，永束正准备骑车回家，但是有一个小混混想强行让永束将他的自行车借给他，永束在大声求救，本来石田准备当作没看见路过，但是永束发现了石田，便对石田大声求救，最终永束的求救还是有效果的，石田对那个小混混说借用他自己的车，但是后来石田的车就没有被还过来了，相当于被抢走了。过了几天，石田在回家的路上遇到了永束，永束将石田的自行车推给他，石田问了之后才得知这是永束花了很多心思从田里找到的，永束主动和石田成为了朋友，一次在去吃饭的时候，永束问石田发生什们事了，此时石田将心中的不解说了出来：”朋友的定义是什么呢？像是成为朋友的权力、资格之类的。“，永束回答说：”对我来说，石田，我觉的友情在超越了言语和道理的地方存在。资格？怎么会需要那种东西？真是无聊至极。“这句话让石田重新燃起了和硝子做朋友的希望，于是就再去了手语学校，像往常一样，结弦挡住了石田冰河他说硝子不在，但是这次永束却出现了，拉住结弦让石田和硝子相见，是永束帮了男主一把迈出了一大步。
+在最后去学校的时候，也是永束第一个找到石田，并对石田说“你没事真是太好了”的人，并且说“要是你就一直那样一直醒不过来的话，我的一切就要结束了！也将！别在意那天在桥上的事，那种事只要活着就会经历过很多次的！所以，也将，求你了，不要离我远走，求求你了！”，并且永束还留了用来许愿的小胡子，是用来祈祷石田尽快醒来的。两人真挚的友情，从这几句话中显露无疑，我觉的永束是这部电影里永束最好的男性朋友了！同样的，在救赎将也这条路上，永束是必不可缺的人物。最后石田与曾经的同学都和好了，可以说，是硝子和永束帮助石田救赎了自己。
+最后幸好是个皆大欢喜的结局，如果这是现实的话，可能就没有这么好的结局了。作者不仅仅是在描绘一个爱情、友情的故事，更在描绘一个人性的故事，希望现实也能多一点相互理解和包容。
+祝硝子和将也永远在一起！
+
+
+
+
+]]></content>
+      <categories>
+        <category>自言自语</category>
+      </categories>
+      <tags>
+        <tag>动漫</tag>
+        <tag>声之形</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>提升 VMware Workstation 性能和易用性的几个 Tips</title>
+    <url>//tips-to-improve-vmware-performance/</url>
+    <content><![CDATA[本文主要介绍了几个提升 VMware Workstation 虚拟机性能的几个设置 tips。
+
+
+提升性能部分Tips 1：及时更新 VMware Workstation如图，点击 立即下载所有组件，即可完成更新。
+
+Tips 2：尽可能提高 VMware Workstation 可占用的内存空间如图，将选项更改为 调整所有虚拟机内存使其适应预留的主机 RAM，并在上方提高内存预留值。
+
+Tips 3：提高 VMware Workstation 进程优先级如图，将 抓取的输入内容 的优先级改为 高。
+
+Tips 4：尽可能选择最新的硬件兼容性选项如图：
+
+Tips 5：尽可能提高虚拟机的硬件环境提高虚拟机的 CPU 核心数：
+
+提高虚拟机的内存容量：
+
+Tips 6：选择较新的 SCSI 控制器在一些较新的系统上，例如 Windows 10、Debian Linux 10 等都可以使用 准虚拟化 SCSI 控制器，可以大幅提高 IO 性能。
+
+Tips 7：选择更先进的虚拟磁盘类型现在较新的系统基本都支持 NVMe 规范，NVMe 规范相比 SATA 等延迟更低，带宽更大。
+
+Tips 8：将虚拟磁盘存储为单个文件选择此选项可以提高虚拟机磁盘的 IO 性能。
+
+Tips 9：开启虚拟化引擎（VT-x | AMD-v）如果你没有使用 Hyper-V，并且你的 CPU 支持此功能，勾选以开启。
+因为当你启用 Hyper-V 之后，系统整个都处于一层虚拟化中，当你的 Windows 版本为 20H1 及以上、VMware 版本为 15.5 及以上时，VMware 依赖于 Windows 提供的 WHP API 以实现虚拟化，真正的虚拟化功能由 Hyper-V 提供，所以不需要勾选。
+
+Tips 10：移除不需要的设备如图，移除虚拟机内用不到的设备
+
+Tips 11：使用较新的 CD/DVD 接口如图，默认的 CD/DVD 接口为 IDE，我们选择更快的 SATA 或者 SCSI。
+
+Tips 12：尽可能分配更大的图形内存当我们在虚拟机内使用 Windows 10 或者其它带有桌面环境的操作系统时，可以勾选加速 3D 图形并尽可能调高图形内存，可以提高虚拟机内操作系统动画、图像的流畅度。
+
+Tips 13：虚拟机高级设置优化如图所示，将收集调试信息设置为 无，勾选 禁用内存页面修整 可减少卡顿。如果你使用 Hyper-V 并更新过处理器微码，可以勾选 为启用了 Hyper-V 的主机禁用侧通道缓解。
+
+提升易用性部分Tips 1：启用增强型键盘如图：
+
+Tips 2：使用 UEFI 固件（可选）UEFI 全称为可扩展固件接口，相比于 BIOS，提供了许多更方便、安全的特性。建议在还没有安装虚拟机操作系统时改变此选项，否则可能使你安装好的虚拟机无法启动。
+
+]]></content>
+      <categories>
+        <category>笔记本</category>
+      </categories>
+      <tags>
+        <tag>虚拟机</tag>
+        <tag>VMware</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/manifest.json</url>
+    <content><![CDATA[{"name":"","short_name":"","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}]]></content>
+  </entry>
+  <entry>
+    <title>404</title>
+    <url>/404/index.html</url>
+    <content><![CDATA[南风知我意，吹梦到西洲。
+]]></content>
+  </entry>
+  <entry>
+    <title>关于</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[我是谁？我是 RivenNero，来自中国。
+特别声明因为本站多次重建，所以许多友情链接都丢失了，各位大佬如果希望再次添加友链请在本页评论或发邮件联系我。
+爱好
+计算机科学与技术：
+编程
+算法
+虚拟化
+电子产品
+Linux，尤其喜欢以下发行版：
+Debian
+Arch
+Gentoo
+OpenWRT
+
+
+FreeBSD
+OPNSense
+
+
+macOS
+Android
+iOS
+Windows
+开源
+去中心化
+区块链
+加密货币，尤其喜欢：
+BTC
+ETH
+UNI
+LINK
+ADA
+FIL
+XMR
+
+
+
+
+游戏，尤其喜欢：
+赛博朋克 2077
+巫师 3
+鬼泣 5
+鬼泣 4
+DmC：鬼泣
+英雄联盟
+Stellaris
+文明系列
+原神
+戴森球计划
+饥荒
+星露谷物语
+量子破碎
+看火人
+Flower
+Journey
+超凡：双生
+Control
+Hitman 系列
+
+
+动漫，尤其喜欢：
+Fate/Stay Night 系列
+紫罗兰永恒花园系列
+声之形
+ReLIFE 系列
+言叶之庭
+碧蓝之海
+青春猪头少年系列
+鬼灭之刃系列
+你的名字
+辉夜大小姐想让我告白系列
+斩服少女
+石纪元系列
+咒术回战
+小林家的龙女仆系列
+刺客伍六七系列
+
+
+最喜欢的动漫角色：
+卫宫士郎
+阿尔托莉雅·潘德拉贡
+梓川咲太
+牧之原翔子
+樱岛麻衣
+缠流子
+鬼龙院皐月
+
+
+各类书籍
+
+联系方式E-mail: &#82;&#x69;&#118;&#x65;&#x6e;&#78;&#x65;&#x72;&#x6f;&#64;&#112;&#x72;&#111;&#x74;&#x6f;&#x6e;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;
+Telegram: https://t.me/RivenNero
+主站点Cloudflare: https://rivennero.com
+站点备份GitHub: https://github.rivennero.com
+Vercel: https://vercel.rivennero.com
+Netlify: https://netlify.rivennero.com
+站点状态https://stats.uptimerobot.com
+站点源码本站已经全部开源，采用 CC BY-NC-SA 4.0 协议进行许可。如果有建议可以在评论区提出也可以在 Github 提出 issue。
+源码地址：https://github.com/RivenNero/rivennero.github.io
+捐赠USDT/BTC/ETH/UNI/LINK/BTC/FIL/ADA/BNB (BEP-20 || ERC-20): 0xE3b5874e8C6cFe219e47cF314f6d7Cde207763C7
+USDT/TRON (TRC-20): TGVWtLsJJCfpUMwN5KpkW7J8hEe17jYgj4
+BTC: bc1q0fk2fwcgxjfpkdrkdh2j7l3yn6nef9l6rt7krq
+]]></content>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+</search>
